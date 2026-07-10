@@ -1,6 +1,6 @@
 # Jakarta F&B KOL Audit: Separating Real Influence from Bot Farms (DaaS MVP)
 
-Banyak brand F&B dan agensi digital di Jakarta tanpa sadar "membakar" anggaran marketing mereka. Mereka membayar mahal Influencer/KOL berdasarkan tingginya angka *likes* dan *comments*, tanpa tahu berapa persen dari interaksi tersebut yang berasal dari audiens nyata, dan berapa yang berasal dari *click-farms* (bot).
+Banyak brand F&B dan agensi digital di Jakarta tanpa sadar "membakar" anggaran marketing mereka. Mereka membayar mahal Influencer/KOL Instagram berdasarkan tingginya angka *likes* dan *comments*, tanpa tahu berapa persen dari interaksi tersebut yang berasal dari audiens nyata, dan berapa yang berasal dari *click-farms* (bot).
 
 Proyek ini adalah bentuk Minimum Viable Product (MVP) untuk layanan **Data-as-a-Service (DaaS)**. Tujuannya sederhana: Mengaudit metrik KOL secara otomatis untuk menyelamatkan anggaran marketing dari *fake engagement*.
 
@@ -8,7 +8,7 @@ Proyek ini adalah bentuk Minimum Viable Product (MVP) untuk layanan **Data-as-a-
 
 Saya mengaudit 3 KOL F&B ternama di Jakarta (@sibungbung, @anakjajan, @henjiwong) dengan mengambil sampel 300 komentar teratas. Alur kerjanya adalah sebagai berikut:
 
-1. **Ekstraksi Data:** Melakukan *scraping* pada *top post* dan komentar menggunakan Apify.
+1. **Ekstraksi Data:** Melakukan *scraping* pada *top post* dan komentar menggunakan Apify (Instagram Comments Scraper & Post Scraper).
 2. **Transformasi:** Membersihkan ratusan kolom metadata yang berantakan dan menggabungkan relasi data menggunakan Python (Pandas).
 3. **Membangun Detektor Bot (NLP):** Ini adalah bagian paling menantang. Awalnya, algoritma saya mendeteksi kata "jual" atau "murah" sebagai spam promosi. Padahal, audiens F&B asli sering memakai kata itu untuk *review* murni ("bakmi ini murah", "yang jual ramah"). Saya akhirnya merombak algoritma menggunakan *Regex Word Boundaries* khusus leksikon F&B Indonesia untuk menekan angka *False Positives* hingga nyaris nol.
 4. **Visualisasi:** Menyajikan hasil akhir ke dalam *dashboard* Looker Studio yang interaktif agar mudah dibaca oleh level eksekutif.
