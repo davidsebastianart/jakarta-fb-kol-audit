@@ -1,4 +1,4 @@
-# 🕵Jakarta F&B KOL Audit: Separating Real Influence from Bot Farms (DaaS MVP)
+# Jakarta F&B KOL Audit: Separating Real Influence from Bot Farms (DaaS MVP)
 
 Banyak brand F&B dan agensi digital di Jakarta tanpa sadar "membakar" anggaran marketing mereka. Mereka membayar mahal Influencer/KOL berdasarkan tingginya angka *likes* dan *comments*, tanpa tahu berapa persen dari interaksi tersebut yang berasal dari audiens nyata, dan berapa yang berasal dari *click-farms* (bot).
 
