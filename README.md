@@ -10,7 +10,7 @@ Saya mengaudit 3 KOL F&B ternama di Jakarta (@sibungbung, @anakjajan, @henjiwong
 
 1. **Ekstraksi Data:** Melakukan *scraping* pada *top post* dan komentar menggunakan Apify.
 2. **Transformasi:** Membersihkan ratusan kolom metadata yang berantakan dan menggabungkan relasi data menggunakan Python (Pandas).
-3. **Membangun Detektor Bot (NLP):** *Ini adalah bagian paling menantang.* Awalnya, algoritma saya mendeteksi kata "jual" atau "murah" sebagai spam promosi. Padahal, audiens F&B asli sering memakai kata itu untuk *review* murni ("bakmi ini murah", "yang jual ramah"). Saya akhirnya merombak algoritma menggunakan *Regex Word Boundaries* khusus leksikon F&B Indonesia untuk menekan angka *False Positives* hingga nyaris nol.
+3. **Membangun Detektor Bot (NLP):** Ini adalah bagian paling menantang. Awalnya, algoritma saya mendeteksi kata "jual" atau "murah" sebagai spam promosi. Padahal, audiens F&B asli sering memakai kata itu untuk *review* murni ("bakmi ini murah", "yang jual ramah"). Saya akhirnya merombak algoritma menggunakan *Regex Word Boundaries* khusus leksikon F&B Indonesia untuk menekan angka *False Positives* hingga nyaris nol.
 4. **Visualisasi:** Menyajikan hasil akhir ke dalam *dashboard* Looker Studio yang interaktif agar mudah dibaca oleh level eksekutif.
 
 ### Apa yang Data Katakan? (Hasil Audit)
