@@ -1,4 +1,4 @@
-Jakarta F&B KOL Audit: Separating Real Influence from Bot Farms (DaaS MVP)
+🕵️‍♂️ Jakarta F&B KOL Audit: Separating Real Influence from Bot Farms (DaaS MVP)
 
 Banyak brand F&B dan agensi digital di Jakarta tanpa sadar "membakar" anggaran marketing mereka. Mereka membayar mahal Influencer/KOL berdasarkan tingginya angka likes dan comments, tanpa tahu berapa persen dari interaksi tersebut yang berasal dari audiens nyata, dan berapa yang berasal dari click-farms (bot).
 
@@ -9,7 +9,7 @@ Proyek ini adalah bentuk Minimum Viable Product (MVP) untuk layanan Data-as-a-Se
 
 🛠️ Bagaimana Saya Membangun Ini?
 
-Saya mengaudit 3 KOL F&B ternama di Jakarta (@sibungbung, @anakjajan, @henjiwong) dengan alur kerja berikut:
+Saya mengaudit 3 KOL F&B ternama di Jakarta (@sibungbung, @anakjajan, @henjiwong) dengan mengambil sampel 295 komentar teratas. Alur kerjanya adalah sebagai berikut:
 
 Ekstraksi Data: Melakukan scraping pada top post dan komentar menggunakan Apify.
 
@@ -37,19 +37,20 @@ Ubah strategi konten (CTA): Karena 84% audiens organik cenderung netral/pasif, b
 
 📂 Struktur Repositori
 
-01_ETL_and_Bot_Detection.ipynb : Script Google Colab berisi logika cleaning, Regex bot detection, dan analisis sentimen.
+Jika Anda ingin mereplikasi atau melihat source code proyek ini, silakan telusuri file berikut:
 
-Analisis_KOL_Audit_Presentation.pptx : Executive slide deck yang merangkum temuan bisnis dari proyek ini.
+01_ETL_and_Bot_Detection.ipynb : Script Python berisi logika cleaning, Regex bot detection, dan analisis sentimen.
 
-master_dataset_clean.csv : Dataset mentah hasil ekstraksi awal (sebelum klasifikasi bot).
+KOL_Audit_Presentation.pptx : Executive slide deck yang merangkum temuan bisnis dari proyek ini.
 
-final_daas_dataset.csv : Dataset final yang siap dihubungkan ke Looker Studio.
+DB_Master_KOL_Audit.csv : Dataset mentah hasil ekstraksi awal.
+
+final_daas_dataset.csv : Dataset final (sudah diklasifikasi) yang dihubungkan ke Looker Studio.
 
 preview_dashboard.png : Gambar tangkapan layar dari hasil akhir dashboard.
 
 David Sebastian Aritonang
+
 Data Analyst | Turning messy data into strategic business decisions.
 
-LinkedIn
-
-Portfolio/Medium
+📩 LinkedIn | 🌐 Portfolio/Medium
