@@ -28,7 +28,7 @@ Dari sampel komentar teratas yang diaudit, ini temuan utamanya:
 
 ## 📊 Dashboard Preview
 
-![Jakarta F&B KOL Authenticity Audit Dashboard](dashboard/jakarta_kol_audit.png)
+![Jakarta F&B KOL Authenticity Audit Dashboard](Dashboard/jakarta_kol_audit.png)
 
 > **Interactive Version:** [View the Live Google Data Studio Dashboard Here](https://datastudio.google.com/reporting/fa952fc2-3cd4-4353-b6b3-6b2d91f87861)
 
